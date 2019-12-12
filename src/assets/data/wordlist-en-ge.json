@@ -1,0 +1,50 @@
+{"words":  [
+   {
+      "_id":18,
+      "word":"fish",
+      "translate":"der Fisch",
+      "tags":"animal",
+      "picture":"fish.jpg",
+      "audio":"En-uk-fish.ogg.mp3"
+   },
+   {
+      "_id":5,
+      "word":"butterfly",
+      "translate":"der Schmetterling",
+      "tags":"animal",
+      "picture":"butterfly.jpg",
+      "audio":"En-uk-a_butterfly.ogg.mp3"
+   },
+   {
+      "_id":8,
+      "word":"cat",
+      "translate":"die Katze",
+      "tags":"animal",
+      "picture":"cat.jpg",
+      "audio":"En-uk-a_cat.ogg.mp3"
+   },
+   {
+      "_id":12,
+      "word":"dog",
+      "translate":"der Hund",
+      "tags":"animal",
+      "picture":"dog.jpg",
+      "audio":"En-uk-a_dog.ogg.mp3"
+   },
+   {
+      "_id":20,
+      "word":"grasshopper",
+      "translate":"die Heuschrecke",
+      "tags":"animal",
+      "picture":"grasshopper.jpg",
+      "audio":"En-uk-grasshopper.ogg.mp3"
+   },
+   {
+      "_id":35,
+      "word":"sheep",
+      "translate":"das Schaf",
+      "tags":"animal",
+      "picture":"sheep.jpg",
+      "audio":"En-uk-a_sheep.ogg.mp3"
+   }
+]}

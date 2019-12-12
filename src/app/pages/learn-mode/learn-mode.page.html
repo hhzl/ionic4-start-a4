@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Learn mode</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="ion-padding">
+
+<ion-buttons slot="end">
+<h1 (click)="listen()">{{ word }}</h1>
+<ion-button  (click)="listen()" size="large">
+<ion-icon name="play"></ion-icon>
+</ion-button>
+</ion-buttons>
+
+
+
+<div><img  src="{{itemImageUrlPath}}{{itemImageFileName}}"></div>
+<h1>{{ translate }}</h1>
+
+</div>
+</ion-content>
+
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Dictionary</ion-title>
+      <ion-button slot="end" (click)="nextItem()">
+<ion-icon size="large" name="arrow-round-forward"></ion-icon></ion-button>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Settings</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+<p>Select language</p>	
+
+<ion-radio-group (ionChange)="onChangeHandler($event)">
+    <ion-item>
+      <ion-label>German</ion-label>
+      <ion-radio value="German" [checked]="this.selectedRadio ==='German'"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>French</ion-label>
+      <ion-radio value="French" [checked]="this.selectedRadio==='French'"></ion-radio>
+    </ion-item>
+
+  </ion-radio-group>
+
+</ion-content>
